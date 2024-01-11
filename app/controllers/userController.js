@@ -91,7 +91,7 @@ const registerUser = async (req, res, next) => {
   }
 
   const newUser = {
-    id: (Math.random() + 1).toString(36).substring(5), // TODO: use uuid instead
+    id: (Math.random() + 1).toString(36).substring(5), 
     firstName,
     lastName,
     email,
